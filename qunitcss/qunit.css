@@ -46,6 +46,9 @@
 	padding:24px;
 	position:relative;
 }
+#qunit-modulefilter-dropdown > #qunit-modulefilter-actions > .clickable > input {
+	margin-left: 5px;
+}
 
 #qunit-header {
 	font-size:24px;
@@ -55,6 +58,7 @@
 #qunit-header > a {
 	color:#ccc;
 	text-decoration:none;
+	font-size: 16px;
 }
 #qunit-header > a:hover {
 	color:#ccc;
@@ -98,6 +102,10 @@
 #qunit-modulefilter-dropdown {
     padding: 5px;
     background: white;
+    position: absolute;
+    border: 1px solid grey;
+    border-radius: 3px;
+    color: black;
 }
 .qunit-filter {
 	float: right;
@@ -106,6 +114,9 @@
 #qunit-modulefilter-dropdown-list {
 	margin-bottom: 0px;
     list-style-type: none;
+}
+#qunit-modulefilter-dropdown-list > li > label > input {
+	margin-left: 5px;
 }
 #qunit-testrunner-toolbar input {
 	font:inherit;
