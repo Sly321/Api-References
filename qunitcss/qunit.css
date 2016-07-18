@@ -86,6 +86,26 @@
 	position:absolute;
 	right:24px;
 	top:40px;
+	width: 100%;
+}
+.qunit-url-config {
+	float: right;
+    margin-left: 300px;
+}
+#qunit-modulefilter {
+    float: right;
+}
+#qunit-modulefilter-dropdown {
+    padding: 5px;
+    background: white;
+}
+.qunit-filter {
+	float: right;
+    margin-right: 15px;
+}
+#qunit-modulefilter-dropdown-list {
+	margin-bottom: 0px;
+    list-style-type: none;
 }
 #qunit-testrunner-toolbar input {
 	font:inherit;
@@ -104,7 +124,7 @@
 }
 #qunit-banner {
 	height:1px;
-	margin:24px 0;
+	margin: 60px 0 15px 0;
 }
 #qunit-banner.qunit-fail {
 	background-color:#c33;
@@ -131,6 +151,7 @@
 	color:#666;
 	padding: 0 6px;
 	text-decoration:none;
+	float: right;
 }
 #qunit-tests li a:hover {
 	color:#ccc;
@@ -144,6 +165,7 @@
 }
 #qunit-tests li .runtime {
 	font-size: smaller;
+	float: right;
 }
 #qunit-tests li.fail span.test-message {
 	color:#c33;
