@@ -59,9 +59,6 @@
 #qunit-modulefilter-dropdown > #qunit-modulefilter-actions > .clickable {
     width: 100%
 }
-#qunit-modulefilter-search {
-	margin-right: 0;
-}
 #qunit-header {
 	font-size:24px;
 	line-height:1;
@@ -118,6 +115,8 @@
     border: 1px solid grey;
     border-radius: 3px;
     color: black;
+    right: 5px;
+    width: 200px;
 }
 #qunit-modulefilter-actions > button:first-child {
 	border-top-left-radius: 5px;
@@ -126,16 +125,18 @@
     background: #5d5656;
     color: white;
     padding: 5px;
-    width: 40%;
+    width: 49%;
 }	
 #qunit-modulefilter-actions > button:nth-child(2) {
+	border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     margin-bottom: 10px;
     border: 1px solid grey;
     border-left: none;
     background: #5d5656;
     color: white;
     padding: 5px;
-    width: 40%;
+    width: 49%;
 }	
 .qunit-filter {
 	float: right;
@@ -288,4 +289,7 @@
 }
 .qunit-collapsed {
 	display: none;
+}
+#qunit-modulefilter-search {
+	margin-right: 0;
 }
