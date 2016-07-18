@@ -13,6 +13,24 @@
     min-width: 800px;
 }
 
+#debug-modal > .modal-dialog > .modal-content > .modal-header {
+	padding: 0px;
+}
+
+#debug-modal > .modal-dialog > .modal-content > .modal-header > .modal-title {
+	text-shadow: 1px 1px 0 #000000;
+	color: #ccc;
+}
+
+#debug-modal > .modal-dialog > .modal-content > .modal-header > .close {
+	color: #ffffff;
+}
+
+#debug-modal > .modal-dialog > .modal-content > .modal-header > .close:hover {
+	color: #ffffff;
+    opacity: 1;
+}
+
 #debug-modal > .modal-dialog > .modal-content {
 	background:#111 no-repeat -webkit-gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(1, #111));
 	background:#111 no-repeat -webkit-linear-gradient(top, #222 0%, #111 100%);
@@ -28,6 +46,7 @@
 	padding:24px;
 	position:relative;
 }
+
 #qunit-header {
 	font-size:24px;
 	line-height:1;
