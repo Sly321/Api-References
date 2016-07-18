@@ -1,12 +1,19 @@
 /**
  * QUnit Ninja Theme by Jamie Hoover v1.1.0
- *
  * https://github.com/Krinkle/qunit-theme-ninja
+ *
+ * v1.1.1 - Some Minor Fixes for the new QUnit Design and some personal preferences for modals by Sven Liebig
+ * https://github.com/Sly321/Api-References/tree/master/qunitcss
  *
  * Copyright 2013 jQuery Foundation and other contributors
  * Released under the MIT license.
  * https://jquery.org/license/
  */
+
+/** Disabling the source view */
+.qunit-source {
+	display: none;
+}
 
 #debug-modal > .modal-dialog {
 	max-width: 1024px;
