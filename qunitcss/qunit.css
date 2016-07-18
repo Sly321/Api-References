@@ -59,7 +59,9 @@
 #qunit-modulefilter-dropdown > #qunit-modulefilter-actions > .clickable {
     width: 100%
 }
-
+#qunit-modulefilter-search {
+	margin-right: 0;
+}
 #qunit-header {
 	font-size:24px;
 	line-height:1;
