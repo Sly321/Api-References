@@ -7,7 +7,13 @@
  * Released under the MIT license.
  * https://jquery.org/license/
  */
+
 #debug-modal > .modal-dialog {
+	max-width: 1024px;
+    min-width: 800px;
+}
+
+#debug-modal > .modal-dialog > .modal-content {
 	background:#111 no-repeat -webkit-gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(1, #111));
 	background:#111 no-repeat -webkit-linear-gradient(top, #222 0%, #111 100%);
 	background:#111 no-repeat -moz-linear-gradient(top, #222 0%, #111 100%);
