@@ -49,6 +49,9 @@
 #qunit-modulefilter-dropdown > #qunit-modulefilter-actions > .clickable > input {
 	margin-left: 5px;
 }
+#qunit-modulefilter-dropdown > #qunit-modulefilter-actions > .clickable {
+    width: 100%
+}
 
 #qunit-header {
 	font-size:24px;
@@ -107,6 +110,24 @@
     border-radius: 3px;
     color: black;
 }
+#qunit-modulefilter-actions > button:first-child {
+	border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid grey;
+    background: #5d5656;
+    color: white;
+    padding: 5px;
+    width: 40%;
+}	
+#qunit-modulefilter-actions > button:nth-child(2) {
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-left: none;
+    background: #5d5656;
+    color: white;
+    padding: 5px;
+    width: 40%;
+}	
 .qunit-filter {
 	float: right;
     margin-right: 15px;
